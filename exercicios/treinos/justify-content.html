@@ -31,25 +31,62 @@
         .flex-center {
             justify-content: center;
         }
+
+        .flex-spacebetween {
+            justify-content: space-between;
+        }
+        .column {
+            flex-direction: column;
+            min-height: 200px;
+        }
     </style>
 </head>
 <body>
-    <h1>Flex-start</h1>
+    <h1>***ROW***</h1>
+    <h2>Flex-start</h2>
     <section class="container flex-start">
         <div class="item">1</div>
         <div class="item">2</div>
         <div class="item">3</div>
     </section>
 
-    <h1>Flex-end</h1>
+    <h2>Flex-end</h2>
     <section class="container flex-start flex-end">
         <div class="item">1</div>
         <div class="item">2</div>
         <div class="item">3</div>
     </section>
 
-    <h1>Flex-center</h1>
+    <h2>Flex-center</h2>
     <section class="container flex-start flex-center">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+    </section>
+
+    <h2>Flex-space-between</h2>
+    <section class="container flex-start flex-spacebetween">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+    </section>
+
+
+    <H1><br>***COLUMN***</H1>
+    <h2>Flex-start</h2>
+    <section class="container flex-start column ">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+    </section>
+    <h2>Flex-end</h2>
+    <section class="container flex-end column ">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+    </section>
+    <h2>Flex space-between</h2>
+    <section class="container flex-spacebetween column ">
         <div class="item">1</div>
         <div class="item">2</div>
         <div class="item">3</div>
