@@ -1,0 +1,10 @@
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+        body {
+            background-color: rgb(105, 105, 105);
+        }
+        p {
+            color: rgb(194, 193, 193);
+            font-size: 33px;
+            font-family: 'Rajdhani', sans-serif;
+        }
